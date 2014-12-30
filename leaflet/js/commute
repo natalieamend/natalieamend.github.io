@@ -1,0 +1,340 @@
+//start walk data
+var austin = {
+	"type": "Feature",
+    "properties": {
+        "2005": 1.8,
+        "2006": 2.1,
+        "2007": 2,
+        "2008": 1.9,
+        "2009": 2.3,
+        "2010": 3,
+        "2011": 2.8,
+        "2012": 2.8,
+        "id": "1",
+        "name": "Austin"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-97.75, 30.25]
+    };
+var boston = {
+	"type": "Feature",
+    "properties": {
+        "2005": 12.5,
+        "2006": 13.9,
+        "2007": 13.3,
+        "2008": 14.3,
+        "2009": 14.1,
+        "2010": 15.8,
+        "2011": 14.5,
+        "2012": 15.5,
+        "id": "2",
+        "name": "Boston"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0636, 42.3581]
+    };
+var chicago = {
+	"type": "Feature",
+    "properties": {
+        "2005": 5.5,
+        "2006": 5.4,
+        "2007": 5.4,
+        "2008": 5.8,
+        "2009": 5.9,
+        "2010": 6.5,
+        "2011": 6.3,
+        "2012": 6.9,
+        "id": "3",
+        "name": "Chicago"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6278, 41.8819]
+    };
+var denver = {
+	"type": "Feature",
+    "properties": {
+        "2005": 4.8,
+        "2006": 4.2,
+        "2007": 4.3,
+        "2008": 4.3,
+        "2009": 3.7,
+        "2010": 3.9,
+        "2011": 4.6,
+        "2012": 5,
+        "id": "4",
+        "name": "Denver"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-104.9847, 39.7392]
+    };
+var detroit = {
+	"type": "Feature",
+    "properties": {
+        "2005": 2.5,
+        "2006": 3.3,
+        "2007": 2.7,
+        "2008": 2.4,
+        "2009": 4.5,
+        "2010": 2.5,
+        "2011": 3,
+        "2012": 3.7,
+        "id": "5",
+        "name": "Detroit"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-83.0458, 42.3314]
+    };
+var losAngeles = {
+	"type": "Feature",
+    "properties": {
+        "2005": 3.2,
+        "2006": 3.4,
+        "2007": 3.7,
+        "2008": 3.4,
+        "2009": 3.4,
+        "2010": 3.6,
+        "2011": 4.8,
+        "2012": 3.6,
+        "id": "6",
+        "name": "Los Angeles"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-118.25, 34.05]
+    };
+var miami = {
+	"type": "Feature",
+    "properties": {
+        "2005": 4.9,
+        "2006": 2.5,
+        "2007": 4.1,
+        "2008": 3.9,
+        "2009": 3.4,
+        "2010": 3.8,
+        "2011": 4.3,
+        "2012": 4.2,
+        "id": "7",
+        "name": "Miami"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2241, 25.7877]
+    };
+var milwaukee = {
+	"type": "Feature",
+    "properties": {
+        "2005": 4.3,
+        "2006": 5.2,
+        "2007": 4.6,
+        "2008": 4.1,
+        "2009": 4.7,
+        "2010": 4.7,
+        "2011": 5.8,
+        "2012": 5.5,
+        "id": "8",
+        "name": "Milwaukee"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-87.78, 43.038]
+    };
+var minneapolis = {
+	"type": "Feature",
+    "properties": {
+        "2005": 5.8,
+        "2006": 7.1,
+        "2007": 6.4,
+        "2008": 6.1,
+        "2009": 6.4,
+        "2010": 6.7,
+        "2011": 5.8,
+        "2012": 6.9,
+        "id": "9",
+        "name": "Minneapolis"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-93.2667, 44.9833]
+    };
+var newOrleans = {
+	"type": "Feature",
+    "properties": {
+        "2005": 4.2,
+        "2006": 4.4,
+        "2007": 6.9,
+        "2008": 6.2,
+        "2009": 5.6,
+        "2010": 5.4,
+        "2011": 6.1,
+        "2012": 4.7,
+        "id": "10",
+        "name": "New Orleans"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-90.448, 29.9667]
+    };
+var newYorkCity = {
+	"type": "Feature",
+    "properties": {
+        "2005": 9.4,
+        "2006": 9.9,
+        "2007": 10.3,
+        "2008": 10.3,
+        "2009": 10.3,
+        "2010": 10.1,
+        "2011": 10.4,
+        "2012": 10.1,
+        "id": "11",
+        "name": "New York City"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0215032, 40.42516701]
+    };
+var philadelphia = {
+	"type": "Feature",
+    "properties": {
+        "2005": 8.1,
+        "2006": 8,
+        "2007": 7.9,
+        "2008": 8.6,
+        "2009": 8.7,
+        "2010": 8.3,
+        "2011": 9.2,
+        "2012": 8.2,
+        "id": "12",
+        "name": "Philadelphia"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.9496404, 39.578406]
+    };
+var portland = {
+	"type": "Feature",
+    "properties": {
+        "2005": 4.3,
+        "2006": 5.2,
+        "2007": 4.4,
+        "2008": 5.3,
+        "2009": 5.6,
+        "2010": 5.3,
+        "2011": 4.9,
+        "2012": 6.9,
+        "id": "13",
+        "name": "Portland"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4034346, 45.31244254]
+    };
+var sanFrancisco = {
+	"type": "Feature",
+    "properties": {
+        "2005": 9.6,
+        "2006": 9.6,
+        "2007": 9.7,
+        "2008": 9.4,
+        "2009": 10.3,
+        "2010": 9.4,
+        "2011": 9.9,
+        "2012": 9.8,
+        "id": "14",
+        "name": "San Francisco"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2598958, 37.4629]
+    };
+var seattle = {
+	"type": "Feature",
+    "properties": {
+        "2005": 6.9,
+        "2006": 8.4,
+        "2007": 8.3,
+        "2008": 9.3,
+        "2009": 7.7,
+        "2010": 8.6,
+        "2011": 9,
+        "2012": 9.9,
+        "id": "15",
+        "name": "Seattle"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-122.1955455, 47.36223542]
+    };
+var tuscan = {
+	"type": "Feature",
+    "properties": {
+        "2005": 3.1,
+        "2006": 4.2,
+        "2007": 4,
+        "2008": 3.3,
+        "2009": 3.6,
+        "2010": 3.1,
+        "2011": 3.7,
+        "2012": 3.8,
+        "id": "16",
+        "name": "Tuscan"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-110.9264, 32.2217]
+    };
+
+var washingtonDC = {
+    "type": "Feature",
+    "properties": {
+        "2005": 10,
+        "2006": 11.8,
+        "2007": 11.1,
+        "2008": 12.1,
+        "2009": 11.1,
+        "2010": 11.8,
+        "2011": 11.8,
+        "2012": 11.9,
+        "id": "17",
+        "name": "Washington, D.C."
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0367, 38.8951]
+    };
+
+var walk = L.layergroup([austin, boston, chicago, denver, detroit, losAngeles, miami, milwaukee, minneapolis, newOrleans, newYorkCity, philadelphia, portland, sanFrancisco, seattle, tuscan, washingtonDC]);
+//end walk data
+    function createPropSymbols(timestamps, data) {
+        walking = L.geoJson(walk, {
+
+            pointToLayer: function(feature, latlng) {
+
+                return L.circleMarker(latlng, {
+
+                    fillColor: "#53868B",
+                    color: '#2F4F4F',
+                    weight: 1,
+                    fillOpacity: 0.6
+
+                }).on({
+
+                    mouseover: function(e) {
+                        this.openPopup();
+                        this.setStyle({color: '#D1EEEE'});
+                    },
+                    mouseout: function(e) {
+                        this.closePopup();
+                        this.setStyle({color: '#2F4F4F'});
+
+                    }
+
+                });
+            }
+        }).addTo(map);
+
+        updatePropSymbols(timestamps[0]);

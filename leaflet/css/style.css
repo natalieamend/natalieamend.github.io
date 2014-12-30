@@ -1,0 +1,141 @@
+
+html, body, #map {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	display: block;
+  background: #fcfcfc;
+    }
+
+.sidepanel {
+	float: right;
+	width: 35%;
+	height: 100%;
+	top: -26px;
+	right: -2px;
+	bottom:	2em;
+	padding: 0;
+	}
+#map {
+    position: fixed;
+    top: 0;
+	left: 0;
+	width: 65%;
+	height:100%;
+}
+/* dropdown positioning */
+.menu-ui {
+  background:#fff;
+  position:relative;
+  z-index:1;
+  border-radius:3px;
+  width:120px;
+  border:1px solid rgba(0,0,0,0.4);
+  }
+  .menu-ui a {
+    font-size:15px;
+    font-family: "Proxima Nova";
+    font-variant: small-caps;
+    color:#404040;
+    display:block;
+    margin:0;padding:0;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .menu-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .menu-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .menu-ui a:hover {
+      background:#f8f8f8;
+      color:#404040;
+      }
+    .menu-ui a.active,
+    .menu-ui a.active:hover {
+      background:#53868B;
+      color:#FFF;
+      }
+/* dropdown styling */
+select, option {
+	font-family: 'Proxima Nova';
+    font-size: 15px;
+    font-variant:small-caps;
+	color: #494949;
+}
+
+/* typography */
+h1 {
+	font-family: 'Oswald';
+	font-size: 60px;
+	font-weight: lighter;
+	line-height: 97%;
+	color: #53868B;
+}
+h2 {
+	margin: 0px 15px 0px 15px;
+	font-family: 'Proxima Nova';
+	font-weight: lighter;
+	font-size: 20px;
+	color: #494949;
+	}
+h3 {
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    font-variant:small-caps;
+    font-weight: bold;
+}
+
+/* symbol legend */
+.legend {
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+    border-radius: 5px;
+    background: rgba(249, 249, 249, 0.4);
+    width: 125px;
+}
+#legendTitle {
+	font-family: 'Proxima Nova';
+    font-size: 13px;
+    color: #494949;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.symbolsContainer {
+    float: left;
+	margin-left: 50px;
+}
+.legendCircle {
+     border-radius:50%; 
+     border: 1px solid #2F4F4F; 
+     background: #53868B;
+	 display: inline-block;
+	 opacity: 0.5;
+}
+.legendValue {
+    position: absolute;
+    right: 8px;
+}
+
+/* temporal legend */
+.range-slider {
+    width: 270px;
+}
+.temporal-legend {
+	font-family: 'Oswald';
+    font-size: 52px;
+	color: #53868B;
+}
+
+/* fanciness */
+path {
+  -webkit-transition:fill 200ms;
+          transition:fill 200ms;
+  }
