@@ -70,8 +70,9 @@ section.module.parallax-1 {
 
 .chart {
     float: left;
-    margin-top: 17%;
-    margin-left: 23%;
+    margin-top: 30%;
+    margin-left: 10%;
+    position: absolute;
 }
 
 .chartTitle {
@@ -81,7 +82,8 @@ section.module.parallax-1 {
 
 .dropdown {
     float: left;
-    margin-left: 30%;
+    margin-left: 23%;
+    margin-top: 10%;
 }
 .infolabel {
   position: absolute;
