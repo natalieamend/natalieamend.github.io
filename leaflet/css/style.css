@@ -139,3 +139,12 @@ path {
   -webkit-transition:fill 200ms;
           transition:fill 200ms;
   }
+
+/* selection color */
+
+::selection {
+  background: #53868B; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #53868B; /* Gecko Browsers */
+}
