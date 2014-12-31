@@ -63,8 +63,7 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover,
-a:focus {
+a:hover {
     text-decoration: none;
     color: rgba(255,255,255,.1);
 }
@@ -408,26 +407,25 @@ footer p {
   background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
-  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-  -moz-transition: opacity .3s 0s, visibility 0s 0s;
-  transition: opacity .3s 0s, visibility 0s 0s;
+    opacity: 1;
 }
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
-  opacity: 1;
 }
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
+  opacity: .65;
 }
 .no-touch .cd-top:hover {
-  background-color: #e86256;
+  background-color: #000000;
   opacity: 1;
 }
 @media only screen and (min-width: 768px) {
