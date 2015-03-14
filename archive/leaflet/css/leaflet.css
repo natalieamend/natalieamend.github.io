@@ -279,7 +279,7 @@
 	font-variant: small-caps;
 	color: #494949;
 	border: 0.5px solid #989898;
-	font-family: 'Proxima Nova';
+	font-family: 'Open Sans', sans-serif;
 	}
 .leaflet-control-layers-toggle {
 	background-image: url(images/layers.png);
@@ -431,7 +431,7 @@
 	background: #F8F8F8;
 	opacity: 0.88;
 	text-align: center;
-	font-family: 'Proxima Nova';
+	font-family: 'Open Sans', sans-serif;
     color: #494949;
 	font-size: 14px;
 	border-width: 0.25px;
@@ -491,7 +491,7 @@
 	}
 
 .leaflet-control-layers-toggle:after{ 
-    font-family: "Proxima Nova";
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
