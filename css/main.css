@@ -104,6 +104,10 @@ textarea {
 	letter-spacing: -0.03em;
 }
 
+.open {
+	letter-spacing: 0.05em;
+}
+
 .header {
 	color: rgba(0,0,0,0.78);
 	font-size: 550%;
@@ -118,7 +122,7 @@ textarea {
   text-align: justify;
   text-justify: inter-word;
   margin: 0 auto;
-  width: 24em;
+  width: 21em;
 }
 
 .link {
