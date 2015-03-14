@@ -16,7 +16,8 @@ html {
 	font-weight: 300;
     font-size: 1.1em;
     line-height: 1.4;
-    margin: 5% 10% 5% 10%;
+    margin: auto;
+    padding: 0 3em;
 }
 
 
@@ -110,7 +111,7 @@ textarea {
 	font-size: 550%;
 	font-family: "Playfair Display";
 	font-weight: 900;
-	font-kerning: normal;
+  text-align: center;
 	padding-top: 4%;
 	margin-bottom: 3.5%;
 }
@@ -146,6 +147,7 @@ footer, #icons {
 	color: rgba(0,0,0,0.78);
 	padding-top: 3.5%;
 	padding-right: 1%;
+  text-align: center;
    -o-transition:color .2s ease-out, background 1s ease-in;
   -ms-transition:color .2s ease-out, background 1s ease-in;
   -moz-transition:color .2s ease-out, background 1s ease-in;
