@@ -16,6 +16,7 @@ html {
 	font-weight: 300;
     font-size: 1.1em;
     line-height: 1.4;
+    margin: 5%;
 }
 
 
@@ -104,17 +105,13 @@ textarea {
 	letter-spacing: -0.03em;
 }
 
-.open {
-	letter-spacing: 0.05em;
-}
-
 .header {
 	color: rgba(0,0,0,0.78);
 	font-size: 550%;
 	font-family: "Playfair Display";
 	font-weight: 900;
 	font-kerning: normal;
-	padding-top: 13%;
+	padding-top: 4%;
 	margin-bottom: 3.5%;
 }
 
