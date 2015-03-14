@@ -121,6 +121,7 @@ textarea {
   text-justify: inter-word;
   margin: 0 auto;
   width: 21em;
+  position: relative;
 }
 
 .link {
