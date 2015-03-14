@@ -101,7 +101,7 @@ textarea {
    ========================================================================== */
 
 .kern {
-	letter-spacing: -0.035em;
+	letter-spacing: -0.03em;
 }
 
 .header {
@@ -144,7 +144,7 @@ text-decoration: none;
 footer, #icons {
 	color: rgba(0,0,0,0.78);
 	padding-top: 3.5%;
-	padding-right: 1.5%;
+	padding-right: 1%;
    -o-transition:color .2s ease-out, background 1s ease-in;
   -ms-transition:color .2s ease-out, background 1s ease-in;
   -moz-transition:color .2s ease-out, background 1s ease-in;
