@@ -16,7 +16,6 @@ html {
 	font-weight: 300;
     font-size: 1.1em;
     line-height: 1.4;
-    margin: auto;
 }
 
 
@@ -49,8 +48,6 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }
 
 /*
@@ -118,7 +115,7 @@ textarea {
 .center-justified {
   text-align: justify;
   text-justify: inter-word;
-  margin: 0 auto;
+  margin: auto;
   width: 21em;
 }
     
