@@ -52,7 +52,6 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
-    padding-right: 2em;
 }
 
 /*
@@ -256,6 +255,11 @@ color: #ededed;
 
     .header {
       font-size: 475%;
+    }
+
+    body {
+    padding-right: 2em;
+    padding-left: 2em;
     }
 }
 
