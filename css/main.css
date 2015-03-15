@@ -17,7 +17,6 @@ html {
     font-size: 1.1em;
     line-height: 1.4;
     margin: auto;
-    padding: 0 3em;
 }
 
 
@@ -250,11 +249,11 @@ color: #ededed;
 @media only screen and (max-width: 35em) {
     .center-justified {
       width: 15em;
-      font-size: 95%;
+      font-size: 93.5%;
     }
 
     .header {
-      font-size: 475%;
+      font-size: 472%;
     }
 
     body {
