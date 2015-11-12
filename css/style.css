@@ -295,7 +295,7 @@ header {
 }
 
 .nav-toggle.active:before {
-  font-size: 1.5em;
+  font-size: 2em;
   content: "\78"; /* Close icon */
 }
 
