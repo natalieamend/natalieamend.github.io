@@ -282,7 +282,7 @@ header {
 
 .nav-toggle:before {
   color: #fff; /* Edit this to change the icon color */
-  font: normal 1.5em/2.75em "responsivenav"; /* Edit font-size (28px) to change the icon size */
+  font: normal 2em/2.25em "responsivenav"; /* Edit font-size (28px) to change the icon size */
   text-transform: none;
   text-align: center;
   position: absolute;
