@@ -1,5 +1,58 @@
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+a{
+	text-decoration: none;
+	color: #777777;
+}
+a:visited {
+	color: indianred;
+}
+#intro {
+	text-align: center;
+	font-size: 1.25em;
+	width: 50%;
+	margin: 0 auto;
+}
+#intro h1 {
+	font-size: 1.5em;
+}
+#hero {
+	margin: 0 auto;
+	text-align: center;
+}
+tr:nth-child(even){
+	background: url(p4.png) repeat;
+}
+.cocktail-section {
+	border-bottom: 1px solid lightgray;
+	padding: 0px 15% 1% 15%;
+}
+.cocktail-section h2 {
+	text-align: center;
+}
+.similar-site {
+	width: 70%;
+	margin: 0 auto;
+}
+.similar-site h1 {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
 @media screen and (max-width: 645px) {
 	img {
+		width: 100%;
+	}
+	#intro {
+		width: 85%;
+	}
+	.cocktail-section {
+		padding: 0px;
+	}
+	.similar-site {
 		width: 100%;
 	}
 }
